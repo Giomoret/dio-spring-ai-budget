@@ -185,6 +185,3 @@ Implementação própria orientada pelo fluxo e pela arquitetura do [módulo ofi
 - [Spring AI: transcrição](https://docs.spring.io/spring-ai/reference/api/audio/transcriptions.html)
 - [Spring AI: geração de voz](https://docs.spring.io/spring-ai/reference/api/audio/speech.html)
 
-## Entrega na DIO
-
-Publique o conteúdo desta pasta em seu próprio repositório e envie a URL no desafio. Não envie `.env`, chaves, `data/`, `build/` ou `.gradle/`. Antes da entrega final, execute os testes e, se tiver uma chave de API, registre seu teste manual de texto/voz na seção de evidências.
