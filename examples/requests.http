@@ -1,0 +1,23 @@
+### Criar receita
+POST http://127.0.0.1:8080/api/transactions
+Content-Type: application/json
+
+{"description":"Salario","amount":3000.00,"type":"INCOME","category":"SALARY","date":"2026-10-27"}
+
+### Criar despesa
+POST http://127.0.0.1:8080/api/transactions
+Content-Type: application/json
+
+{"description":"Almoco","amount":25.90,"type":"EXPENSE","category":"FOOD","date":"2026-10-27"}
+
+### Listar
+GET http://127.0.0.1:8080/api/transactions?start=2026-10-01&end=2026-10-31&category=FOOD
+
+### Resumo
+GET http://127.0.0.1:8080/api/transactions/summary?start=2026-10-01&end=2026-10-31
+
+### Texto (exige perfil ai e credencial)
+POST http://127.0.0.1:8080/api/assistant/text
+Content-Type: application/json
+
+{"message":"Qual meu saldo de 1 a 31 de outubro de 2026?"}
